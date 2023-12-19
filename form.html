@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+      .btn{
+        background-color: purple;
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 0.5rem;
+        padding-right: 8rem;
+        padding-left: 8rem;
+        border: none;
+      }
+    a{
+      text-decoration: none;
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img
+          width="100"
+          height="57"
+          src="https://learn.altschoolafrica.com/wp-content/uploads/2022/01/cropped-AltSchool-Logo-1.png"
+          class="attachment-full size-full wp-image-25221" alt=""/>
+      </nav>
+  </header>
+    <section>
+        <h1>Application Form</h1>
+        <h3>Fill in your details</h3>
+        <hr />
+    </section>
+    <section>
+      <form action="">
+        <label for="fname">First Name</label> <span>&#42;</span>
+        <input
+          type="text"
+          name="fname"
+          placeholder="Enter first Name"
+          required
+        />
+        <label for="lname">Last Name</label> <span>&#42;</span>
+        <input
+          type="text"
+          name="lname"
+          placeholder="Enter last Name"
+          required
+        />
+        <br />
+        <br />
+        <label for="gender">Gender*</label>
+        <select name="Gender" id="gender" class="r">
+          <option value="select">Select gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+        <label for="Date of Birth">Date of Birth*</label>
+        <input type="date" value="Date" id="Date of Birth" required />
+        <br /><br />
+        <label for="Email Address">Email Address*</label>
+        <input
+          type="text"
+          value="Email"
+          id="Email Address"
+          placeholder="Enter Email Address"
+          required
+        />
+        <label for="Education level">Education Level*</label>
+        <select name="Education level" id="Education level">
+          <option value="select">Select level of education</option>
+          <option value="B.sc">B.sc</option>
+          <option value="Msc">Msc</option>
+          <option value="Phd">Phd</option>
+        </select>
+        <br /><br />
+        <label for="Country">Country*</label>
+        <select name="Country" id="Country">
+          <option value="select">Select Country</option>
+          <option value="Nigeria">Nigeria</option>
+          <option value="Kenya">Kenya</option>
+          <option value="South Africa">South Africa</option>
+        </select>
+        <label for="State/City of Residence">State/City of Residence</label>
+        <input
+          type="text"
+          name="State/City"
+          placeholder="Enter your State of Residence"
+          required
+        />
+        <br /><br />
+        <label for="Employment Status">Employment Status*</label>
+        <select name="Employment" id="Employment Status">
+          <option value="select">Select Employment Status</option>
+          <option value="Employed">Employed</option>
+          <option value="unemployed">unemployed</option>
+        </select>
+        <label for="Phone Number">Phone Number</label>
+        <input
+          type="number"
+          id="Phone Number"
+          name="Number"
+          placeholder="08036781546"
+          required
+        />
+        <br /><br />
+        <label for="Choose School">Choose School*</label>
+        <select name="school" id="School">
+          <option value="select">Select School</option>
+          <option value="School of Data">School of Data</option>
+          <option value="School of Engineering">School of Engineering</option>
+          <option value="School of Product">School of Product</option>
+        </select>
+        <label for="Choose course of Study">Choose Course of Study*</label>
+        <select name="Course of Study" id="Course of Study">
+          <option value="select">Select Course</option>
+          <option value="Front End Engineering">Front End Engineering</option>
+          <option value="Back End Engineering">Back End Engineering</option>
+          <option value="Cloud Engineering">Cloud Engineering</option>
+        </select>
+        <br><br>
+        <label for="How did you hear about us?">How did you hear about us?*</label>
+        <select name="Hear about us" id="Hear about us">
+          <option value="select">Select Channel</option>
+          <option value="Twitter">Twitter</option>
+          <option value="instagram">instagram</option>
+          <option value="From a friend">From a friend</option>
+        </select>
+        <label for="Scholarship/Discount Code (Optional)">Scholarship/Discount Code (Optional)</label> <span>&#42;</span>
+        <input
+          type="text"
+          name="Scholarship/Discount Code (Optional)"
+          placeholder="Scholarship or student ID or"
+          required
+        />
+      </form>
+    </section>
+    <section>
+    <p> By clicking continue, I agree to <a href=""> Terms of Use</a> and acknowledge that i have read the <a href="">Privacy policy</a></p>
+    <button class="btn">Proceed</button>
+      <p>For My Biography<a href="index.html"> Click Here</a></p>
+    </section>
+  </body>
+</html>

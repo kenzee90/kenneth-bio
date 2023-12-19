@@ -1,0 +1,1 @@
+This assignment is a simple HTML and CSS mini assignment, given to me by altschool to implement the skill set in the use of HTML and CSS with no javascript.
